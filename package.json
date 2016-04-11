@@ -1,0 +1,19 @@
+{
+  "name": "dahlia_portfolio",
+  "version": "0.1.0",
+  "description": "Remaking dahlia's current portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-mocks": "^1.5.3",
+    "angular-route": "^1.5.3",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "webpack-stream": "^3.1.0"
+  }
+}
