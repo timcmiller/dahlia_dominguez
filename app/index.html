@@ -1,37 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-ng-app="PortfolioApp">
 <head>
   <meta charset="UTF-8">
   <title>dahlia dominguez</title>
   <link rel="stylesheet" type="text/css" href="css/application.css">
 </head>
-<body data-ng-app="PortfolioApp">
-  <section class="container vert">
-    <image class="logo" src="images/logo.png" alt="Dahlia Dominguez" />
-    <h1>dahlia dominguez</h1>
-    <h2>graphis designer // artist</h2>
-    <nav>
-      <ul class="container hor">
-        <li>
-          <a class="link" href="#portfolio">PORTFOLIO</a>
-        </li>
-        <li>
-          <a class="link" href="#about">ABOUT</a>
-        </li>
-        <li>
-          <a class="link" href="resume">RESUME</a>
-        </li>
-      </ul>
-    </nav>
-    <aside
-    data-social-directive
-    data-linkedin="https://www.linkedin.com/in/dahliadominguez"
-    data-instagram="https://www.instagram.com/dahlia.d/"
-    data-facebook="https://www.facebook.com/dahlia.dominguez"
-    data-email="dahliadominguez94@gmail.com"
-    data-style="circle">
-    </aside>
-  </section>
+<body>
+  <div data-ng-view></div>
 </body>
 <script src="bundle.js"></script>
 </html>
