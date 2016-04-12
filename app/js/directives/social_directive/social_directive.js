@@ -6,6 +6,7 @@ module.exports = function(app) {
       templateUrl: '../partials/social_template.html',
       scope: {
         style: '@',
+        layout: '@',
         linkedin: '@',
         instagram: '@',
         facebook: '@',

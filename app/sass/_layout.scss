@@ -1,7 +1,38 @@
+//header
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  p {
+    width: 100%;
+    max-width: 300px;
+    padding-right: 30px;
+  }
+}
+
+.spacer {
+  margin: 0px auto;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0px;
+}
+
+.footer-container {
+  display: flex;
+}
+
 .container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .vert {
