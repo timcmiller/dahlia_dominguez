@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vert {
+  flex-direction: column;
+}
+
+.hor {
+  flex-direction: row;
+}
+
+.link {
+  padding: 0px 10px;
+}

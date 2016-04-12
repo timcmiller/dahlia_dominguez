@@ -12,8 +12,12 @@
     "angular": "^1.5.3",
     "angular-mocks": "^1.5.3",
     "angular-route": "^1.5.3",
-    "express": "^4.13.4",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
     "webpack-stream": "^3.1.0"
   }
 }
