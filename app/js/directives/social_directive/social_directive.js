@@ -3,7 +3,7 @@ module.exports = function(app) {
     return {
       restrict: 'AC',
       replace: true,
-      templateUrl: 'templates/social_template.html',
+      templateUrl: '../partials/social_template.html',
       scope: {
         style: '@',
         linkedin: '@',

@@ -1,9 +1,9 @@
 module.exports = function(app) {
-  app.directive('socialDirective', function() {
+  app.directive('sitenavDirective', function() {
     return {
       restrict: 'AC',
       replace: true,
-      templateUrl: 'templates/site_nav_template.html',
+      templateUrl: '../partials/sitenav_template.html',
       scope: {
         name: '@'
       }
