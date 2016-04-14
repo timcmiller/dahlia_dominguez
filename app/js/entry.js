@@ -4,6 +4,7 @@ var angular = window.angular;
 
 var portfolioApp = angular.module('PortfolioApp', ['ngRoute']);
 require('./directives/directives.js')(portfolioApp);
+require('./portfolio/portfolio.js')(portfolioApp);
 
 portfolioApp.config(['$routeProvider', function($route) {
   $route.

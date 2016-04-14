@@ -37,6 +37,21 @@
   margin: 30px 0px 70px;
 }
 
+//portfolio
+.img-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.middle-column {
+  margin: 0px 30px;
+}
+
+.portfolio-container {
+  display: flex;
+}
+
 .container {
   display: flex;
   justify-content: center;

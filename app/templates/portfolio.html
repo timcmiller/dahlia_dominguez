@@ -1,17 +1,53 @@
 <header data-header-directive>
 </header>
-<section class="container vert">
-  <div class="spacer">
-    <h2>Graphic Designs</h2>
-    <h2>Art</h2>
-    <footer
-    data-social-directive
-    data-linkedin="https://www.linkedin.com/in/dahliadominguez"
-    data-instagram="https://www.instagram.com/dahlia.d/"
-    data-facebook="https://www.facebook.com/dahlia.dominguez"
-    data-email="dahliadominguez94@gmail.com"
-    data-style="mini"
-    data-layout="footer-container">
-    </footer>
-  </div>
+<section data-ng-controller="PortfolioController" class="container vert">
+    <div class="spacer">
+        <h2>Graphic Designs</h2>
+        <section class="portfolio-container" data-ng-init="getAllGraphicDesigns()">
+            <ul class="img-list">
+                <li data-ng-repeat="design in graphicDesigns" data-ng-if="$index % 3 == 0">
+                    <img class="portfolio-img" src="{{design.url}}" alt="{{design.alt}}" />
+                </li>
+            </ul>
+            <ul class="img-list middle-column">
+                <li data-ng-repeat="design in graphicDesigns" data-ng-if="$index % 3 == 1">
+                    <img class="portfolio-img" src="{{design.url}}" alt="{{design.alt}}" />
+                </li>
+            </ul>
+            <ul class="img-list">
+                <li data-ng-repeat="design in graphicDesigns" data-ng-if="$index % 3 == 2">
+                    <img class="portfolio-img" src="{{design.url}}" alt="{{design.alt}}" />
+                </li>
+            </ul>
+        </section>
+    </div>
+    <div class="spacer">
+        <h2>Art</h2>
+         <section class="portfolio-container" data-ng-init="getAllArtPieces()">
+            <ul class="img-list">
+                <li data-ng-repeat="art in artPieces" data-ng-if="$index % 3 == 0">
+                    <img class="portfolio-img" src="{{art.url}}" alt="{{art.alt}}" />
+                </li>
+            </ul>
+            <ul class="img-list middle-column">
+                <li data-ng-repeat="art in artPieces" data-ng-if="$index % 3 == 1">
+                    <img class="portfolio-img" src="{{art.url}}" alt="{{art.alt}}" />
+                </li>
+            </ul>
+            <ul class="img-list">
+                <li data-ng-repeat="art in artPieces" data-ng-if="$index % 3 == 2">
+                    <img class="portfolio-img" src="{{art.url}}" alt="{{art.alt}}" />
+                </li>
+            </ul>
+        </section>
+        <footer
+        data-social-directive
+        data-linkedin="https://www.linkedin.com/in/dahliadominguez"
+        data-instagram="https://www.instagram.com/dahlia.d/"
+        data-facebook="https://www.facebook.com/dahlia.dominguez"
+        data-email="dahliadominguez94@gmail.com"
+        data-style="mini"
+        data-layout="footer-container">
+        </footer>
+    </div>
 </section>
