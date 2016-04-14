@@ -18,6 +18,18 @@ h1 {
   font-size: 9vw;
 }
 
+.center-text {
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Lato', sans-serif;
+}
+
+.subheading {
+  font-family: 'Helvetica', sans-serif;
+}
+
 .logo {
   width: 120px;
   height: 120px;
@@ -43,10 +55,14 @@ h1 {
   margin: auto;
 }
 
+.main-nav {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
 
 //social directive
 .circle {
-  margin-top: 80px;
   padding: 3px !important;
   a {
     span {
@@ -65,14 +81,9 @@ h1 {
 
 .mini {
   font-size: 13px;
-  padding: 0px !important;
+  padding: 30px 0px 0px !important;
   a {
     padding: 10px;
-  }
-  a:hover {
-    color: white;
-    background-color: black;
-    transition: all 0.3s ease-in-out 0s;
   }
 }
 

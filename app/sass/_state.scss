@@ -10,3 +10,24 @@
 .site-nav:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
+
+ul:hover .circle a span{
+  background-color: grey;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.circle:hover a span {
+  background-color: black !important;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.mini a:hover {
+  color: white;
+  background-color: black;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.main-nav li:hover a {
+  color: grey;
+  transition: all 0.2s ease-in-out 0s;
+}

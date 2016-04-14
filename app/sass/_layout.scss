@@ -29,6 +29,14 @@
   display: flex;
 }
 
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 30px 0px 70px;
+}
+
 .container {
   display: flex;
   justify-content: center;
