@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+  .header-container {
+    display: none;
+  }
+
+  .mobile-container {
+    display: flex;
+  }
+
+  body {
+    padding: 25px;
+  }
+}

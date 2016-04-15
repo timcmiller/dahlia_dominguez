@@ -1,8 +1,15 @@
 //header
-.headerContainer {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.mobile-container {
+  display: none;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 25px;
 }
 
 .text-container {
